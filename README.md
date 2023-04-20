@@ -1,7 +1,7 @@
 # Reproduction
-Run `docker compose up --build` handful of times
-Edit file `generate.sh` and make 3rd line be `for i in {1..100}`
-Run `docker compose up --build` handful of times
+* Run `docker compose up --build` handful of times
+* Edit file `generate.sh` and make 3rd line be `for i in {1..100}`
+* Run `docker compose up --build` handful of times
 
 # Expected behavior
 Application should exit with status code 0 in all runs
